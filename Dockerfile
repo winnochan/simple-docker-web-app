@@ -7,8 +7,12 @@ WORKDIR /home/workspace
 USER workspace
 
 # install dependencies
-COPY . .
-# RUN npm install
+COPY ./package.json ./
+COPY ./package-lock.json ./
+# COPY ./node_modules ./
+RUN npm install
+
+COPY ./ ./
 
 # run web app
 CMD npm start
