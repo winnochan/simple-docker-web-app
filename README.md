@@ -1,6 +1,6 @@
 # Simple Docker Web App
 
-## A simple web app using docker for learning.
+## A simple web app using docker for learning
 
 ---
 

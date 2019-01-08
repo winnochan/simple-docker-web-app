@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "shell": "docker run --rm -it winnochan/web-app",
-    "build-docker": "if [ ! -d \"node_modules\" ]; then npm i; fi; docker build -t winnochan/web-app .",
+    "build-docker": "if [ ! -d 'node_modules' ]; then npm i; fi; docker build -t winnochan/web-app .",
     "start-docker": "docker run --rm -p 3000:3000 winnochan/web-app",
     "start": "node ./bin/www",
     "clean": "rm -rf ./node_modules"
