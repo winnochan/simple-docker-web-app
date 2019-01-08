@@ -2,8 +2,6 @@
 
 ## A simple web app using docker for learning
 
----
-
 ### npm run build-docker
 
 build web app docker image.
